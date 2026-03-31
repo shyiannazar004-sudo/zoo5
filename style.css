@@ -1,0 +1,151 @@
+
+body {
+
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #c8f7dc, #d0f0ff, #fef9c3);
+    background-size: 400% 400%;
+    animation: gradientBG 12s ease infinite;
+}
+
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+header {
+    background: linear-gradient(135deg, #43a047, #66bb6a);
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+nav {
+    background: rgba(0,0,0,0.8);
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #90ee90;
+}
+
+.products {
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 50px;
+    border-radius: 25px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.products h2 {
+    width: 100%;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    font-size: 30px;
+    color: #000000;
+    text-align: center;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin: 20px;
+    width: 260px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    transition: 0.3s;
+    text-align: center;
+}
+
+.card:hover {
+    transform: translateY(-12px) scale(1.03);
+    box-shadow: 0 20px 35px rgba(0,0,0,0.15);
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.card p {
+    font-weight: bold;
+    font-size: 18px;
+    color: #43a047;
+}
+
+footer {
+    background: #2e2e2e;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 90%;
+        margin: 15px 0;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .products {
+        padding: 25px;
+    }
+}
+.dog {
+width: 1100px;
+
+}
+.care{
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 50px;
+  background-image: url("https://static.vecteezy.com/system/resources/previews/067/370/689/non_2x/seamless-paw-pattern-with-dog-or-cat-footprint-animal-pet-pawprint-on-green-background-vector.jpg");
+    border-radius: 25px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+    color: white;
+    font-size: 25px;
+    text-shadow: 1px 1px 0px black,-1px -1px 0px black,1px -1px 0px black,-1px 1px 0px black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.clinic{
+        max-width: 1200px;
+    margin: 60px auto;
+    padding: 50px;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+    color: black;
+    font-size: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+nav{
+    font-size: 25px;
+}
+.buy{
+color: black;
+}
